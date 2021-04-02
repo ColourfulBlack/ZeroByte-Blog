@@ -1,0 +1,12 @@
+{
+  "name": "ZeroByte-Blog",
+  "version": "1.0.0",
+  "description": "ZeroByte's Blog",
+  "main": "index.js",
+  "repository": "https://github.com/ColourfulBlack/ZeroByte-Blog.git",
+  "author": "ColourfulBlack",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
