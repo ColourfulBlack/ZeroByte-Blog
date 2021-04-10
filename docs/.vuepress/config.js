@@ -1,5 +1,8 @@
 module.exports = {
     title: "ColourfulBlack's Blog",
+    head: [
+        ['link', { rel: 'icon', type: "image/x-icon", href: "/favicon.ico" }]
+    ],
     description: "A Blog Just For Fun.",
     base: "/",
     theme: "vuepress-theme-reco",
