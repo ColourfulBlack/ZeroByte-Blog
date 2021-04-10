@@ -4,6 +4,8 @@ module.exports = {
     base: "/",
     theme: "vuepress-theme-reco",
     themeConfig: {
+        author: "ColourfulBlack",
+        logo: "/head.jpg",
         type: "blog",
         nav: [
             { text: "时间轴", link: "/timeline/", icon: "reco-date" }

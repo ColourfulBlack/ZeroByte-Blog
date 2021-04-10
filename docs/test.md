@@ -37,7 +37,7 @@ Welcome to ZeroByte! 欢迎来到ZeroByte!
 ## 2. 图片与链接
  
 图片:
-![leanote](/test/pikachu.jpg)
+![leanote](docs/head.jpg)
 
 链接:
 [这是去往ZeroByte博客的链接](http://blog.0bps.com)
