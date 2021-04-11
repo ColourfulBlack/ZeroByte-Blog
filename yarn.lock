@@ -1208,6 +1208,11 @@
   resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
   integrity sha512-BCEv+d6UwNnI7njQx54XcsKdBvHKkp+JmyKnrxcRltyR8OAIW4qf1PQC0Ypp1GHMAL4fFgbUc9/eeAkvMPgYkg==
 
+"@vuepress-reco/vuepress-plugin-bgm-player@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-bgm-player/-/vuepress-plugin-bgm-player-1.1.3.tgz#47e1142908dfc7341c6507a8f1b71f14a357ab3e"
+  integrity sha512-rZDIOyS9GWaE1lJVXcRAZXENfuHYlkFT5IR7yNS9vWxmVj7BPet2jZXeRQqVcTiDOstQakb8v4uTkE7fELbwVg==
+
 "@vuepress-reco/vuepress-plugin-comments@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-comments/-/vuepress-plugin-comments-1.6.0.tgz#df9fb43ce032d429b4c6defcaef461420593f69f"
@@ -1332,10 +1337,17 @@
   dependencies:
     medium-zoom "^1.0.4"
 
-"@vuepress/plugin-nprogress@1.8.2":
+"@vuepress/plugin-medium-zoom@^1.8.2":
   version "1.8.2"
-  resolved "https://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.8.2.tgz#dc6c082925420c8c59ecb7fc2d4a9401f6d4664a"
-  integrity sha1-3GwIKSVCDIxZ7Lf8LUqUAfbUZko=
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.8.2.tgz#0243dd27edf0c710f9a41a234d253d76ab51e625"
+  integrity sha512-Mljso/8E6IbNmIKmwKeC6FDfnhKY3fsOUSs5kEGzz3RQwd54eshqHAMRVwW4LZkYZHhwQXF8+qk7YqoMZB7jjg==
+  dependencies:
+    medium-zoom "^1.0.4"
+
+"@vuepress/plugin-nprogress@1.8.2", "@vuepress/plugin-nprogress@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.8.2.tgz#dc6c082925420c8c59ecb7fc2d4a9401f6d4664a"
+  integrity sha512-3TOBee2NM3WLr1tdjDTGfrAMggjN+OlEPyKyv8FqThsVkDYhw48O3HwqlThp9KX7UbL3ExxIFBwWRFLC+kYrdw==
   dependencies:
     nprogress "^0.2.0"
 
@@ -8385,7 +8397,7 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-container@^2.0.2:
+vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.5:
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-container/download/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
   integrity sha1-N//wVmL+29Y//TpUY7JZLHp/MTM=
@@ -8439,6 +8451,13 @@ vuepress-plugin-sitemap@^2.3.1:
   integrity sha512-n+8lbukhrKrsI9H/EX0EBgkE1pn85LAQFvQ5dIvrZP4Kz6JxPOPPNTQmZMhahQV1tXbLZQCEN7A1WZH4x+arJQ==
   dependencies:
     sitemap "^3.0.0"
+
+vuepress-plugin-smooth-scroll@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.10.tgz#6cb6926032bd5abd7b928df6e7b73b8dd31b5f9d"
+  integrity sha512-1B7cc0OxROX9aPdktTF6lGqASGh3h0mtiUCmbAVZfGDtTOGUYDDA1BhLV96zkz/v1Zh/UvKP2gF6ADrcV83BMg==
+  dependencies:
+    smoothscroll-polyfill "^0.4.4"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
