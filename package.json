@@ -1,9 +1,9 @@
 {
-  "name": "ZeroByte-Blog",
+  "name": "colourfulblack_blog",
   "version": "1.0.0",
-  "description": "ZeroByte's Blog",
+  "description": "ColourfulBlack's Blog",
   "main": "index.js",
-  "repository": "https://github.com/ColourfulBlack/ZeroByte-Blog.git",
+  "repository": "https://github.com/ColourfulBlack/blog.git",
   "author": "ColourfulBlack",
   "license": "MIT",
   "devDependencies": {
