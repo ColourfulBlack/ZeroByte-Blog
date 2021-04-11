@@ -1,7 +1,9 @@
 module.exports = {
     title: "ColourfulBlack's Blog",
     head: [
-        ['link', { rel: 'icon', type: "image/x-icon", href: "/favicon.ico" }]
+        ['link', { rel: 'icon', type: "image/x-icon", href: "/favicon.ico" }],
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
+        ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.2.1/github-markdown.min.css" }]
     ],
     description: "A Blog Just For Fun.",
     base: "/",
@@ -33,10 +35,17 @@ module.exports = {
         }
     },
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        extendMarkdown: md => {
+            // 使用更多的 markdown-it 插件!
+            md.set({
+                html: true
+            })
+            md.use(require('markdown-it-katex'))
+          }
     },
     plugins: [
-        ['vuepress-plugin-flowchart'],  // 支持流程图
+        ['vuepress-plugin-mermaidjs'],  // 支持流程图
         ['vuepress-plugin-container'],  // markdown拓展语法-自定义容器
         ['vuepress-plugin-smooth-scroll'],  // 平滑滚动
         ['vuepress-plugin-reading-progress']  // 阅读进度条

@@ -6,6 +6,7 @@ tags:
 categories:
   - test
 sidebar: "auto" 
+publish: true
 ---
 
 
@@ -176,55 +177,24 @@ Pipe     | \$1
 ZeroByte[^footnote]来创建一个脚注
   [^footnote]: ZeroByte是一个人 
  
-## 5.5 时序图与流程图 (还不支持)
+## 5.5 mermaid.js
+
+```mermaid
+sequenceDiagram
+Alice->John: Hello John, how are you?
+loop every minute
+    John-->Alice: Great!
+end
+``` 
+
+## 5.7 katex 公式
  
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
- 
-流程图:
- 
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
- 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
- 
-> **提示:** 更多关于时序图与流程图的语法请参考:
- 
-> - [时序图语法](http://bramp.github.io/js-sequence-diagrams/)
-> - [流程图语法](http://adrai.github.io/flowchart.js)
- 
-## 5.7 MathJax 公式
- 
-$ 表示行内公式： 
+`$` 表示行内公式： 
  
 质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。
  
-$$ 表示整行公式：
+`$$` 表示整行公式：
  
 $$ \sum_{i=1}^n a_i=0 $$
  
 $$ f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
- 
-$$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
- 
-更复杂的公式:
-$$
-\begin{eqnarray}
-\vec\nabla \times (\vec\nabla f) & = & 0  \cdots\cdots梯度场必是无旋场\\\\
-\vec\nabla \cdot(\vec\nabla \times \vec F) & = & 0\cdots\cdots旋度场必是无散场\\\\
-\vec\nabla \cdot (\vec\nabla f) & = & {\vec\nabla}^2f\\\\
-\vec\nabla \times(\vec\nabla \times \vec F) & = & \vec\nabla(\vec\nabla \cdot \vec F) - {\vec\nabla}^2 \vec F\\\\
-\end{eqnarray}
-$$
- 
-访问 [MathJax](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) 参考更多使用方法。
-
