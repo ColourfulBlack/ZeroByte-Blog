@@ -12,7 +12,7 @@ publish: true
 
 <!-- <a href="/whyhttps/">我们为什么要使用https</a> -->
 
-所以作为一个博主，有必要把自己的博客从http迁移到https。
+随着时代的发展，越来越多的网站开始使用https协议，越来越多的浏览器开始提倡使用https协议。并且，使用http协议还会被浏览器提示不安全。所以作为一个博主，有必要把自己的博客从http迁移到https。
 
 由于acme.sh的简便与Let's Encrypt的免费，我选择了他们。
 
