@@ -38,10 +38,10 @@ Welcome to ZeroByte! 欢迎来到ZeroByte!
 ## 2. 图片与链接
  
 图片:
-![leanote](docs/head.jpg)
+![head](./pikachu.jpg)
 
 链接:
-[这是去往ZeroByte博客的链接](http://blog.0bps.com)
+[这是去往ColourfulBlack博客的链接](http://blog.ckai.site)
  
 ## 3. 标题
  
@@ -170,7 +170,7 @@ Pipe     | \$1
  
 **提示**, 如果想对图片的宽度和高度进行控制, 你也可以通过img标签, 如:
  
-<img src="/test/pikachu.jpg" width="50px" />
+<img src="./pikachu.jpg" width="50px" />
  
 ## 5.4 脚注
  
