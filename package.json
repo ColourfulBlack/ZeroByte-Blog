@@ -20,7 +20,6 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "yarn docs:build && rsync -rPv --delete ./docs/.vuepress/dist/ ${REMOTE_DEST}"
+    "docs:build": "vuepress build docs"
   }
 }
