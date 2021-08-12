@@ -18,6 +18,12 @@ jobs:
 
     - name: Build
       run: npm install && npm run docs:build
+    
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist-without-markdown
+        path: ./docs/.vuepress/dist/
 
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.1
