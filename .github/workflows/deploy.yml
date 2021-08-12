@@ -1,10 +1,19 @@
 name: Build and Deploy
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - 'docs/'
+      - 'package.json'
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - 'docs/'
+      - 'package.json'
 
 jobs:
   build-and-deploy:
