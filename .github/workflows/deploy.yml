@@ -15,9 +15,11 @@ jobs:
 
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.2.0
+      with:
+        cache: 'yarn'
 
     - name: Build
-      run: npm install && npm run docs:build
+      run: yarn && yarn docs:build
     
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
