@@ -50,6 +50,12 @@ module.exports = {
         ['vuepress-plugin-smooth-scroll'],  // 平滑滚动
         ['vuepress-plugin-reading-progress']  // 阅读进度条
         ['@vuepress/nprogress'],  // 加载进度条
-        ['@vuepress/medium-zoom']
+        ['@vuepress/medium-zoom'],
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'UA-204908995-1' // UA-00000000-0
+          }
+        ]
     ]
 }
