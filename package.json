@@ -22,5 +22,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-rss": "vuepress-reco/vuepress-plugin-rss"
   }
 }

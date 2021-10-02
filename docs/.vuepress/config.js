@@ -60,6 +60,13 @@ module.exports = {
           {
             'ga': 'UA-204908995-1' // UA-00000000-0
           }
+        ],
+        [
+          '@vuepress-reco/vuepress-plugin-rss',
+          {
+            'site_url': 'https://blog.ckai.site',
+            'copyright': 'ColourfulBlack 2021'
+          }
         ]
     ]
 }
