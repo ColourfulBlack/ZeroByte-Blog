@@ -16,10 +16,6 @@ module.exports = {
         type: "blog",
         sidebar: "auto",
         noFoundPageByTencent: false,
-        record: '粤ICP备2021112556号-1',
-        recordLink: 'http://beian.miit.gov.cn/',
-        cyberSecurityRecord: '粤公网安备 44022902440314号',
-        cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44022902440314',
         nav: [
             { text: '主页', link: '/', icon: 'reco-home' },
             { text: "时间轴", link: "/timeline/", icon: "reco-date" }
